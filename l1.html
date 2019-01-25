@@ -1,0 +1,111 @@
+<html>
+<style>
+
+#section{
+background-color: gray;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+margin-bottom: 10px;
+    width: 250px;
+   height:200px;
+pading:20px;  
+}
+
+#article {
+background-color: gray;
+    clear:both;
+    margin-left: 20px;
+    width: 250px;
+    height:300px;
+}
+
+#aside {
+background-color: yellowgreen;
+    float:right;
+    margin-right: 70px;
+    margin-top: -510px;
+    width: 910px;
+height:450;
+    padding:25px;
+}
+</style>
+
+
+<body>
+<div id="section"><br>
+
+<form> 
+name: <p style="color:blue;">Ganesh chittawar</p>
+Address:<br><p style="color:blue;">somanwada,manish Nagpur<br></p>
+</form></div><br>
+
+<div id="article"><br>
+
+
+<a onclick="myFunction1()" href="#aside">school</a><br>
+<script>
+ function myFunction1()
+{
+var text1="janata high school patanbori ";
+var text2=" patan bori janat ";
+var text3="art and commerce science janata high";
+document.getElementById("aside").innerHTML=text1;
+
+}   
+</script>
+<p><a onclick="myFunction2()" href="#aside1">collage</a><br>
+<script>
+ function myFunction2()
+{
+var text1="agnihotri and Nit collage ";
+var text2=" agnohotri high collge";
+var text3="commerce and information& technology reseach";
+
+document.getElementById("aside").innerHTML=text2;
+
+}   
+</script></p>
+
+<a onclick="myFunction3()" href="#asiden">university</a><br>
+
+<script>
+ function myFunction3()
+{
+var text1=" RTMNU UNIVERSITY";
+var text2=" ONE OF THE BEST UNIVERSITY IN MY TIME ";
+var text3="NIT AND AGI Institute of Engineering and Technology";
+
+document.getElementById("aside").innerHTML=text3;
+
+}  
+ 
+</script>
+
+
+
+</div>
+<div id="aside"align="center"><button><a  href="C:/Users/DELL/Desktop/web/loginpages.html">Back</a></button>
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
